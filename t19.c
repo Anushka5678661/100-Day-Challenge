@@ -16,9 +16,5 @@ int main() {
             printf("Scalene\n");
         }
     }
-    else {
-        printf("Not a valid triangle\n");
-    }
-
     return 0;
 }
