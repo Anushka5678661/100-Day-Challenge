@@ -9,7 +9,7 @@ int main()
     printf("Enter the coefficient a, b and c: ");
     scanf("%f %f %f", &a, &b, &c);
 
-    D = b*b - 4*a*c;  // Discriminant
+    D = b*b - 4*a*c;
 
     if (D > 0) {
         root1 = (-b + sqrt(D)) / (2*a);
