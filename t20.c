@@ -3,12 +3,8 @@
 
 int main() {
     int day;
-
-    // Input from user
     printf("Enter a number (1-7): ");
     scanf("%d", &day);
-
-    // Switch-case to check the day
     switch(day) {
         case 1:
             printf("Monday\n");
