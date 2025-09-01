@@ -5,8 +5,6 @@ int main() {
 
     printf("Enter three sides of the triangle: ");
     scanf("%d %d %d", &a, &b, &c);
-
-    // First, check if it's a valid triangle (Triangle inequality rule)
     if ((a + b > c) && (a + c > b) && (b + c > a)) {
         if (a == b && b == c) {
             printf("Equilateral\n");
